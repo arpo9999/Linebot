@@ -128,8 +128,8 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP11"){
 				$messages = [
 				'type' => 'location',
-				'title'=> ' อ.เมือง จ.ตรัง.'.'/n'.'Muang Trang',
-                		'address'=> 'วงเวียนหอนาฬิกา.'.'/n'.'Clock tower',
+				'title'=> ' อ.เมือง จ.ตรัง   Muang Trang',
+                		'address'=> 'วงเวียนหอนาฬิกา  Clock tower',
                 		'latitude'=> 7.556767,
                			 'longitude'=> 99.609895
 			];
